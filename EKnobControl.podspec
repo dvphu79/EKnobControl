@@ -29,9 +29,6 @@ Pod::Spec.new do |s|
   s.source_files = "EKnobControl/**/*.{swift}"
 
   # 9
-  s.resources = "EKnobControl/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
-  # 10
   s.swift_version = "4.2"
 
 
