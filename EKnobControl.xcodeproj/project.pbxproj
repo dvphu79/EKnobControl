@@ -8,18 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5FAD8A83251DF03F00859863 /* EKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAD8A81251DF03F00859863 /* EKnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FAD8A8C251DF11F00859863 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8A89251DF11F00859863 /* RotationGestureRecognizer.swift */; };
-		5FAD8A8D251DF11F00859863 /* KnobRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8A8A251DF11F00859863 /* KnobRender.swift */; };
-		5FAD8A8E251DF11F00859863 /* EKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8A8B251DF11F00859863 /* EKnob.swift */; };
+		5FAD8A90251E072700859863 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 5FAD8A8F251E072600859863 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5FAD8A7E251DF03F00859863 /* EKnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EKnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAD8A81251DF03F00859863 /* EKnobControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKnobControl.h; sourceTree = "<group>"; };
 		5FAD8A82251DF03F00859863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FAD8A89251DF11F00859863 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
-		5FAD8A8A251DF11F00859863 /* KnobRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobRender.swift; sourceTree = "<group>"; };
-		5FAD8A8B251DF11F00859863 /* EKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKnob.swift; sourceTree = "<group>"; };
+		5FAD8A8F251E072600859863 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +48,7 @@
 		5FAD8A80251DF03F00859863 /* EKnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				5FAD8A8B251DF11F00859863 /* EKnob.swift */,
-				5FAD8A8A251DF11F00859863 /* KnobRender.swift */,
-				5FAD8A89251DF11F00859863 /* RotationGestureRecognizer.swift */,
+				5FAD8A8F251E072600859863 /* Sources */,
 				5FAD8A81251DF03F00859863 /* EKnobControl.h */,
 				5FAD8A82251DF03F00859863 /* Info.plist */,
 			);
@@ -131,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAD8A90251E072700859863 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FAD8A8C251DF11F00859863 /* RotationGestureRecognizer.swift in Sources */,
-				5FAD8A8D251DF11F00859863 /* KnobRender.swift in Sources */,
-				5FAD8A8E251DF11F00859863 /* EKnob.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
