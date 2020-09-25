@@ -28,7 +28,7 @@
 
 import UIKit
 
-@IBDesignable public class Knob: UIControl {
+@IBDesignable public class EKnob: UIControl {
   /** Contains the minimum value of the receiver. */
   public var minimumValue: Float = 0
 
@@ -106,7 +106,7 @@ import UIKit
     layer.addSublayer(renderer.trackLayer)
     layer.addSublayer(renderer.pointerLayer)
 
-    let gestureRecognizer = RotationGestureRecognizer(target: self, action: #selector(Knob.handleGesture(_:)))
+    let gestureRecognizer = RotationGestureRecognizer(target: self, action: #selector(EKnob.handleGesture(_:)))
     addGestureRecognizer(gestureRecognizer)
   }
 
@@ -142,7 +142,7 @@ import UIKit
   }
 }
 
-extension Knob {
+extension EKnob {
   public override func prepareForInterfaceBuilder() {
     super.prepareForInterfaceBuilder()
 
